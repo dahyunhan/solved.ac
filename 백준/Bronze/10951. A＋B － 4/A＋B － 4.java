@@ -8,8 +8,6 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
 
-        // String cnt = br.readLine();
-
         while (true) {
             String str = br.readLine();
 
@@ -21,10 +19,8 @@ public class Main {
             } catch (Exception e) {
                 break;
             }
-
         }
 
         System.out.println(sb);
-
     }
 }
